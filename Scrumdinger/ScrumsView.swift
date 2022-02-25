@@ -2,7 +2,7 @@
 //  ScrumsView.swift
 //  Scrumdinger
 //
-//  Created by Admin on 25.02.2022.
+//  Created by kaipaevTimur on 25.02.2022.
 //
 
 import SwiftUI
@@ -14,6 +14,13 @@ struct ScrumsView: View {
             ForEach(scrum, id: \.title) { scrum in
                 CardView(scrum: scrum)
                     .listRowBackground(scrum.theme.mainColor)
+            }
+            HStack {
+                Label("Settings", systemImage: "list.bullet")
+                    .foregroundColor(.black)
+                Spacer()
+                Label("World", systemImage: "globe.europe.africa.fill")
+                    .labelStyle(.trailingIcon)
             }
         }
     }
