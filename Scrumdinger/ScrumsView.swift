@@ -15,6 +15,8 @@ struct ScrumsView: View {
                 CardView(scrum: scrum)
                     .listRowBackground(scrum.theme.mainColor)
             }
+// был создан для теста
+
             HStack {
                 Label("Settings", systemImage: "list.bullet")
                     .foregroundColor(.black)
