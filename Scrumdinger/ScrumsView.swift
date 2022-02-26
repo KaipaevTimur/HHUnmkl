@@ -15,13 +15,6 @@ struct ScrumsView: View {
                 CardView(scrum: scrum)
                     .listRowBackground(scrum.theme.mainColor)
             }
-            HStack {
-                Label("Settings", systemImage: "list.bullet")
-                    .foregroundColor(.black)
-                Spacer()
-                Label("World", systemImage: "globe.europe.africa.fill")
-                    .labelStyle(.trailingIcon)
-            }
         }
     }
 }
