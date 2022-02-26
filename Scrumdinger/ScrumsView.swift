@@ -11,18 +11,9 @@ struct ScrumsView: View {
     let scrum: [DailyScrum]
     var body: some View {
         List {
-            ForEach(scrum, id: \.title) { scrum in
+            ForEach(scrum) { scrum in
                 CardView(scrum: scrum)
                     .listRowBackground(scrum.theme.mainColor)
-            }
-// был создан для теста
-
-            HStack {
-                Label("Settings", systemImage: "list.bullet")
-                    .foregroundColor(.black)
-                Spacer()
-                Label("World", systemImage: "globe.europe.africa.fill")
-                    .labelStyle(.trailingIcon)
             }
         }
     }
