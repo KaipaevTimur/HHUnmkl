@@ -16,6 +16,7 @@
 		84BFDE6B27BAC65C0079D788 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BFDE6A27BAC65C0079D788 /* MeetingView.swift */; };
 		84BFDE6D27BAC65E0079D788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BFDE6C27BAC65E0079D788 /* Assets.xcassets */; };
 		84BFDE7027BAC65E0079D788 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BFDE6F27BAC65E0079D788 /* Preview Assets.xcassets */; };
+		84FB15B827CCA50200F9385A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB15B727CCA50200F9385A /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		84BFDE6A27BAC65C0079D788 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		84BFDE6C27BAC65E0079D788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84BFDE6F27BAC65E0079D788 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84FB15B727CCA50200F9385A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				84BFDE6A27BAC65C0079D788 /* MeetingView.swift */,
 				84007F3027C97EB30024E38B /* ScrumsView.swift */,
 				84007F2927C94B840024E38B /* CardView.swift */,
+				84FB15B727CCA50200F9385A /* DetailView.swift */,
 				84007F2F27C95FA20024E38B /* Model */,
 				84BFDE6C27BAC65E0079D788 /* Assets.xcassets */,
 				84BFDE6E27BAC65E0079D788 /* Preview Content */,
@@ -165,6 +168,7 @@
 				84007F2827C947FA0024E38B /* Theme.swift in Sources */,
 				84007F3127C97EB30024E38B /* ScrumsView.swift in Sources */,
 				84BFDE6B27BAC65C0079D788 /* MeetingView.swift in Sources */,
+				84FB15B827CCA50200F9385A /* DetailView.swift in Sources */,
 				84007F2A27C94B840024E38B /* CardView.swift in Sources */,
 				84BFDE6927BAC65C0079D788 /* ScrumdingerApp.swift in Sources */,
 			);
