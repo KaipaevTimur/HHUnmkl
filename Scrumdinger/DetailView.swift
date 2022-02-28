@@ -34,6 +34,11 @@ struct DetailView: View {
                 }
                 .accessibilityElement(children: .combine)
             }
+            Section(header: Text("Attendee")) {
+                ForEach(scrum.attendees) { atteendee in
+                    Label(atteendee.name, systemImage: "person")
+                }
+            }
         }
     }
 }
