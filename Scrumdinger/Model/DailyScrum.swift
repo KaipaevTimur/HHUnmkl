@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct DailyScrum: Identifiable {
     let id: UUID
@@ -43,6 +44,13 @@ extension DailyScrum {
     
     var data: Data {
         Data(title: title, attendees: attendees, lengthInMinutes: Double(lengthInMinutes), theme: theme)
+    }
+    
+    mutating func update(from date: Data) {
+        title = data.title
+        attendees = data.attendees
+        lengthInMinutes = Int(data.lengthInMinutes)
+        theme = data.theme
     }
 }
 

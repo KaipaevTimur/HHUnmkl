@@ -13,7 +13,7 @@ struct ThemeView: View {
         ZStack {
             RoundedRectangle(cornerRadius: 4)
                 .fill(theme.mainColor)
-            Label("Buttercup", systemImage: "paintpalette")
+            Label(theme.name, systemImage: "paintpalette")
                 .padding(4)
         }
         .foregroundColor(theme.accentColor)
