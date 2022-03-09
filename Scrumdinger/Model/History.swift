@@ -7,14 +7,14 @@
 
 import Foundation
 
-
-struct History: Identifiable {
+struct History: Identifiable, Codable {
     let id: UUID
     let date: Date
-    var lengthInMinutes: Int
     var attendees: [DailyScrum.Attendee]
+    var lengthInMinutes: Int
     
-    init(id: UUID = UUID(), date: Date = Date(), lengthInMinutes: Int = 5, attendees: [DailyScrum.Attendee]) {
+    
+    init(id: UUID = UUID(), date: Date = Date(), attendees: [DailyScrum.Attendee], lengthInMinutes: Int = 5) {
         self.id = id
         self.date = date
         self.attendees = attendees
