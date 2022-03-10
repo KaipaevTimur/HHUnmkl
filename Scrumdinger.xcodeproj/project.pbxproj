@@ -12,6 +12,8 @@
 		84007F2C27C94BF40024E38B /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84007F2B27C94BF40024E38B /* DailyScrum.swift */; };
 		84007F2E27C95A010024E38B /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84007F2D27C95A010024E38B /* TrailingIconLabelStyle.swift */; };
 		84007F3127C97EB30024E38B /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84007F3027C97EB30024E38B /* ScrumsView.swift */; };
+		844926AA27D96E18006909EC /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844926A927D96E18006909EC /* ErrorWrapper.swift */; };
+		844926AC27D96F12006909EC /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844926AB27D96F12006909EC /* ErrorView.swift */; };
 		84AB55C527D7E7D300222013 /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB55C427D7E7D300222013 /* MeetingHeaderView.swift */; };
 		84AB55C727D7EF1500222013 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB55C627D7EF1500222013 /* ScrumProgressViewStyle.swift */; };
 		84AB55C927D7F51D00222013 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB55C827D7F51D00222013 /* ScrumTimer.swift */; };
@@ -36,6 +38,8 @@
 		84007F2B27C94BF40024E38B /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		84007F2D27C95A010024E38B /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		84007F3027C97EB30024E38B /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		844926A927D96E18006909EC /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		844926AB27D96F12006909EC /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		84AB55C427D7E7D300222013 /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
 		84AB55C627D7EF1500222013 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		84AB55C827D7F51D00222013 /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
@@ -75,6 +79,7 @@
 				84AB55C827D7F51D00222013 /* ScrumTimer.swift */,
 				84AB55CF27D8194F00222013 /* AVPlayer+Ding.swift */,
 				84BE14A227D893740069B67A /* History.swift */,
+				844926A927D96E18006909EC /* ErrorWrapper.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 				84BFDE6827BAC65C0079D788 /* ScrumdingerApp.swift */,
 				84007F3027C97EB30024E38B /* ScrumsView.swift */,
 				84007F2927C94B840024E38B /* CardView.swift */,
+				844926AB27D96F12006909EC /* ErrorView.swift */,
 				84AB55C627D7EF1500222013 /* ScrumProgressViewStyle.swift */,
 				84AB55CC27D8137100222013 /* MeetingView */,
 				84AB55CD27D813A200222013 /* Theme */,
@@ -239,10 +245,12 @@
 				84007F2E27C95A010024E38B /* TrailingIconLabelStyle.swift in Sources */,
 				84AB55C527D7E7D300222013 /* MeetingHeaderView.swift in Sources */,
 				84B5A8AC27D3DE3A00F7A3CA /* DetailEditView.swift in Sources */,
+				844926AA27D96E18006909EC /* ErrorWrapper.swift in Sources */,
 				84007F2827C947FA0024E38B /* Theme.swift in Sources */,
 				84007F3127C97EB30024E38B /* ScrumsView.swift in Sources */,
 				84BFDE6B27BAC65C0079D788 /* MeetingView.swift in Sources */,
 				84FB15B827CCA50200F9385A /* DetailView.swift in Sources */,
+				844926AC27D96F12006909EC /* ErrorView.swift in Sources */,
 				84007F2A27C94B840024E38B /* CardView.swift in Sources */,
 				84B5A8AE27D525A900F7A3CA /* ThemeView.swift in Sources */,
 				84BFDE6927BAC65C0079D788 /* ScrumdingerApp.swift in Sources */,
